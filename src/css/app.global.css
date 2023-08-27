@@ -1,0 +1,34 @@
+:root {
+    --brand-color: #FDC435;
+}
+
+@font-face {
+    font-family: Comfortaa;
+    src: url('/src/assets/fonts/Comfortaa-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: Comfortaa;
+}
+
+.navbar-menu {
+    cursor: pointer;
+}
+
+.custom-scroll-link {
+    /* Your base styles for the react-scroll Link component */
+    color: black; /* Default link color */
+    transition: color 0.3s; /* Smooth color transition on hover */
+    transition: border-bottom 0.3s;
+    border-bottom: 2px solid transparent;
+  }
+  
+.custom-scroll-link:hover {
+    border-bottom: 2px solid var(--brand-color); /* Change color on hover */
+}
+
+.sections {
+    position: relative;
+    top: 50px;
+    max-width: 1100px;
+}

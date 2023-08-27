@@ -1,0 +1,6 @@
+.title {
+    border-bottom: 2px solid var(--brand-color);
+    display: inline-block;
+    text-align: center;
+    margin: auto;
+}

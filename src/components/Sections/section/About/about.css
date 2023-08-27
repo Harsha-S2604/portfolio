@@ -1,0 +1,37 @@
+.about-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 200px;
+    min-height: 450px;
+}
+
+.info {
+    max-width: 500px;
+}
+
+.info .profession {
+    color: var(--brand-color)
+}
+
+
+.profile-image {
+    position: relative;
+}
+
+.image-stack {
+    position: absolute;
+    width: 350px;
+    height: 350px;
+}
+
+/* .image-stack:nth-child(2) {
+    top: -10px;
+    left: 10px;
+    border-radius: 19px;
+} */
+
+.image-stack:nth-child(2) {
+    top: -15px;
+    left: 16px;
+    border-radius: 19px;
+}
