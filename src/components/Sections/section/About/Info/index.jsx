@@ -2,8 +2,8 @@ const Info = ({ data }) => {
     return (
         <div className='info'>
             <h1>{"Hi there!, I'm " + data.name}</h1>
-            <p className="text-secondary">{data.about}</p>
-            <p className="profession">{data.profession}</p>
+            <p className="text-secondary description">{data.about}</p>
+            <p className="profession fw-bolder">{data.profession}</p>
         </div>
     )
 }

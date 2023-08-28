@@ -1,7 +1,13 @@
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url('/src/assets/fonts/Roboto-Regular.ttf') format('truetype');
+}
+
 .about-flex {
     display: flex;
     flex-wrap: wrap;
-    gap: 200px;
+    justify-content: space-between;
     min-height: 450px;
 }
 
@@ -14,24 +20,23 @@
 }
 
 
-.profile-image {
-    position: relative;
-}
-
 .image-stack {
-    position: absolute;
+    position: relative;
     width: 350px;
     height: 350px;
 }
 
-/* .image-stack:nth-child(2) {
-    top: -10px;
-    left: 10px;
-    border-radius: 19px;
-} */
+.rect {
+    left: 350px;
+}
 
 .image-stack:nth-child(2) {
     top: -15px;
     left: 16px;
     border-radius: 19px;
+}
+
+.description {
+    font-family: Roboto-Regular;
+    font-size: 20px;
 }
