@@ -10,7 +10,7 @@ const Sections = () => {
                     const sectionName = section.sectionName
                     const SectionComponent = section.sectionComponent
                     return (
-                        <SectionComponent key={sectionName + index} data={section} />
+                        SectionComponent ? <SectionComponent key={sectionName + index} data={section} /> : null
                     )
                 })
             }       
