@@ -1,6 +1,46 @@
+@font-face {
+    font-family: Nunito;
+    src: url('/src/assets/fonts/Nunito.ttf');
+}
+
 .title {
     border-bottom: 2px solid var(--brand-color);
     display: inline-block;
     text-align: center;
     margin: auto;
+}
+
+.project-head {
+    padding: 35px;
+}
+
+.project-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.project-image {
+    padding-bottom: 30px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.button-link {
+    display: inline-block;
+    color: #000;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    font-family: Roboto-Regular, 'sans-serif';
+}
+
+.project-desc {
+    font-family: Nunito;
 }

@@ -1,7 +1,10 @@
-
 @font-face {
-    font-family: Roboto-Regular;
-    src: url('/src/assets/fonts/Roboto-Regular.ttf') format('truetype');
+    font-family: Poppins;
+    src: url('/src/assets/fonts/Poppins-Regular.ttf') format('truetype');
+}
+
+.name {
+    font-family: Poppins;
 }
 
 .about-flex {

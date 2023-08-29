@@ -28,22 +28,36 @@ const sectionsData = [
         "sectionValue": [
             {
                 "projectName": 'Project 1',
-                "projectDescription": "This is the short description for project 1",
-                "projectLink": "some link",
-                "projectImage": "project1.jpg"
+                "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+                "projectSource": "https://www.example.com",
+                "projectImage": "Project_1.jpeg"
             },
             {
                 "projectName": 'Project 2',
-                "projectDescription": "This is the short description for project 2",
-                "projectLink": "some link",
-                "projectImage": "project2.jpg"
+                "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+                "projectSource": "https://www.example.com",
+                "projectImage": "Project_2.jpeg"
             },
             {
                 "projectName": 'Project 3',
-                "projectDescription": "This is the short description for project 3",
-                "projectLink": "some link",
-                "projectImage": "project3.jpg"
-            }
+                "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+                "projectSource": "https://www.example.com",
+                "projectImage": "Project_3.jpeg"
+            },
+            {
+                "projectName": 'Project 4',
+                "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+                "projectSource": "https://www.example.com",
+                "projectImage": "Project_3.jpeg"
+            },
+            {
+                "projectName": 'Project 5',
+                "projectDescription": "I created this personal project in order to show how to create an interface in Figma using a portfolio as an example.",
+                "projectSource": "https://www.example.com",
+                "projectImage": "Project_3.jpeg"
+            },
+            
+
         ]
     },
     {
