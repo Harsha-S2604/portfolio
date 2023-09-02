@@ -13,22 +13,6 @@
     font-family: Roboto-Regular;
 }
 
-.underline-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center; 
-}
-
-.underline {
-    width: 80px;
-    height: 2px;
-    background-color: #FFFFFF;
-    border-radius: 2px;
-    margin-top: 8px;
-    margin-left: -10px;
-}
-
 .project-head {
     padding: 35px;
 }

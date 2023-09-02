@@ -9,7 +9,7 @@ const Projects = ({ data }) => {
             <div className='text-center project-head'>
                 <div className='underline-container'>
                     <h1 className="title fw-bold">Projects</h1>
-                    <div class="underline"></div>
+                    <div class="underline-white"></div>
                 </div>
             </div>
             <div className="container mt-4 custom-container">
