@@ -3,4 +3,13 @@
     box-shadow: 0px 2px 2px 0px #00000040;
 }
 
+.nav-link {
+    font-family: Raleway;
+}
+
+.custom-navbrand {
+    font-size: 18px;
+    font-weight: 700;
+}
+
 

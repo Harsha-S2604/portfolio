@@ -21,6 +21,12 @@ const sectionsData = [
         }
     },
     {
+        "sectionName": "Experience",
+        "sectionType": "item",
+        "sectionTo": "experience",
+        "sectionComponent": Contacts
+    },
+    {
         "sectionName": "Projects",
         "sectionType": "item",
         "sectionTo": "projects",
@@ -59,6 +65,30 @@ const sectionsData = [
             
 
         ]
+    },
+    {
+        "sectionName": "Education",
+        "sectionType": "item",
+        "sectionTo": "contacts",
+        "sectionComponent": Contacts
+    },
+    {
+        "sectionName": "Awards",
+        "sectionType": "item",
+        "sectionTo": "contacts",
+        "sectionComponent": Contacts
+    },
+    {
+        "sectionName": "Hobbies",
+        "sectionType": "item",
+        "sectionTo": "contacts",
+        "sectionComponent": Contacts
+    },
+    {
+        "sectionName": "Volunteering",
+        "sectionType": "item",
+        "sectionTo": "contacts",
+        "sectionComponent": Contacts
     },
     {
         "sectionName": "Contacts",
