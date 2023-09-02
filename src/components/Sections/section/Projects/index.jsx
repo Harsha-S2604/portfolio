@@ -7,11 +7,10 @@ const Projects = ({ data }) => {
     return (
         <div id="projects" className='projects'>
             <div className='text-center project-head'>
-            <div className='underline-container'>
-                <h1 className="title fw-bold">Projects</h1>
-                <div class="underline"></div>
-            </div>
-                
+                <div className='underline-container'>
+                    <h1 className="title fw-bold">Projects</h1>
+                    <div class="underline"></div>
+                </div>
             </div>
             <div className="container mt-4 custom-container">
                 <div className='row'>
