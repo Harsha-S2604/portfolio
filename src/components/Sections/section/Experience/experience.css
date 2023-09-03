@@ -1,0 +1,43 @@
+.company-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.experience-card {
+    margin-bottom: 20px; 
+    width: 65.625rem;
+    height: 32.75rem;
+    box-shadow: 0px 6px 64px 0px #7090B01A;
+    background-color: #FFFFFF;
+}
+
+.experience-card-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.experience-info {
+    margin-left: 50.44px;
+    margin-top: 160px;
+    max-width: 496px;
+    text-align: left;
+}
+
+.company-name {
+    font-family: Robot-Regular;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.experience-description {
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+.company-image {
+    margin: 25px;
+    width: 468px;
+    height: 467px;
+}

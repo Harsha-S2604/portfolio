@@ -17,6 +17,12 @@
     src: url('/src/assets/fonts/Raleway.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: Nunito;
+    src: url('/src/assets/fonts/Nunito.ttf');
+}
+
+
 body {
     font-family: Comfortaa;
     background-color: #F9FAFF;

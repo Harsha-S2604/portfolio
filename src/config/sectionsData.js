@@ -1,10 +1,10 @@
-import { About, Projects, Contacts } from "../components/Sections/section"
+import { About, Projects, Contacts, Experience } from "../components/Sections/section"
 
 const sectionsData = [
     {
         "sectionName": "Name",
         "sectionType": "brand",
-        "sectionValue": "Prerana Chakraborty",
+        "sectionValue": "Harsha",
         "sectionTo": "top",
     },
     {
@@ -14,17 +14,11 @@ const sectionsData = [
         "sectionComponent": About,
         "sectionValue": {
             "info": {
-                "name": "Prerana Chakraborty",
+                "name": "Harsha",
                 "about": "Short text with details about you, what you do or your professional career. You can add more information on the about page.",
-                "profession": "Data Scientist | Author | Singer | Baker | Horse Rider"
+                "profession": "Software Engineer"
             }
         }
-    },
-    {
-        "sectionName": "Experience",
-        "sectionType": "item",
-        "sectionTo": "experience",
-        "sectionComponent": Contacts
     },
     {
         "sectionName": "Projects",
@@ -65,6 +59,19 @@ const sectionsData = [
             
 
         ]
+    },
+    {
+        "sectionName": "Experience",
+        "sectionType": "item",
+        "sectionTo": "experience",
+        "sectionValue": [
+            {
+                "companyName": 'Sivi.ai',
+                "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+                "companyImage": "experience-1.png"
+            }
+        ],
+        "sectionComponent": Experience,
     },
     {
         "sectionName": "Education",
