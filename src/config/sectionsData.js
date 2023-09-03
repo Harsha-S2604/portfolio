@@ -92,8 +92,16 @@ const sectionsData = [
         "sectionTo": "education",
         "sectionValue": [
             {
-                "educationTitle": 'Sivi.ai',
-                "educationDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+                "title": 'IEM',
+                "image": "education-1.png",
+                "course": "Bachelor of Engineering in Computer Science",
+                "year": "2016-2020",
+            },
+            {
+                "title": 'Carnegie Mellon University',
+                "image": "education-2.png",
+                "course": "Master of Information Systems Management",
+                "year": "2024-2026",
             }
         ],
         "sectionComponent": Education

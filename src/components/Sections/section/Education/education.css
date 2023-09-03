@@ -6,3 +6,21 @@
     background-color: #FFFFFF;
     border-radius: 15px;
 }
+
+.education-title {
+    font-family: Roboto-Regular;
+    font-size: 2rem;
+}
+
+.education-course {
+    font-family: Nunito;
+}
+
+.experience-description {
+    font-family: Nunito;
+    font-size: 18px;
+}
+
+.experience-date {
+    font-family: Nunito;
+}

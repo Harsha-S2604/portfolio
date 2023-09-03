@@ -1,11 +1,12 @@
+import EducationImage from "./EducationImage"
+import EducationInfo from "./EducationInfo"
+
 const EducationCard = ({ education }) => {
-    const { educationTitle, educationDesc } = education
+    const { image } = education
     return (
-        <div className="education-card">
-            <div className="card-body">
-                <h2 className="fw-bolder">{educationTitle}</h2>
-                <p className="project-desc text-secondary">{educationDesc}</p>
-            </div>            
+        <div className="white-box">
+            <EducationImage image={image} />
+            <EducationInfo education={education} />
         </div>
     )
 }

@@ -1,9 +1,8 @@
+import Image from "../../../../../Common/Image"
 const CompanyImage = ({ experience }) => {
     const { companyImage } = experience
     return (
-        <div className="box-image">
-            <img className="img-fluid" src={`/images/Experience/${companyImage}`} alt={companyImage} />
-        </div>
+        <Image imageSource={`/images/Experience/${companyImage}`} imageAlt={companyImage} />
     )
 }
 
