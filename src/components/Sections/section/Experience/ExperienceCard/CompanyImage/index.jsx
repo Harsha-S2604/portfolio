@@ -1,8 +1,8 @@
 const CompanyImage = ({ experience }) => {
     const { companyImage } = experience
     return (
-        <div className="company-image">
-            <img src={`/images/Experience/${companyImage}`} alt={companyImage} />
+        <div className="box-image">
+            <img className="img-fluid" src={`/images/Experience/${companyImage}`} alt={companyImage} />
         </div>
     )
 }

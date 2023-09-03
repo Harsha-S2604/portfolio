@@ -4,27 +4,34 @@ import "./experience.css"
 const Experience = ({ data }) => {
     const experiences = data.sectionValue
     return (
-        <div id="experience">
-            <div className='text-center project-head'>
-                <div className='underline-container'>
-                    <h1 className="title fw-bold">Experience</h1>
-                    <div class="underline-brand-color"></div>
+        <section id="experience">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-12">
+                        <div className="text-center project">
+                            <div className='text-center project-head'>
+                                <div className='underline-container'>
+                                    <h1 className="title fw-bold">Experience</h1>
+                                    <div class="underline-brand-color"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="container mt-5">
-                    <div className="row justify-content-center">
+                
+                <div className="row justify-content-center">
                         {
                             experiences?.map((experience, index) => {
                                 return (
-                                    <div className="col-md-10">
+                                    <div className="col-md-4">
                                         <ExperienceCard experience={experience} key={'experience_' + index} />
                                     </div>
                                 )
                             })
                         }
-                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
 

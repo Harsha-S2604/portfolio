@@ -1,4 +1,4 @@
-import { About, Projects, Contacts, Experience } from "../components/Sections/section"
+import { About, Projects, Contacts, Experience, Education } from "../components/Sections/section"
 
 const sectionsData = [
     {
@@ -68,6 +68,19 @@ const sectionsData = [
             {
                 "companyName": 'Sivi.ai',
                 "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+                "role": "software engineer",
+                "companyImage": "experience-1.png"
+            },
+            {
+                "companyName": 'Sivi.ai',
+                "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+                "role": "software engineer",
+                "companyImage": "experience-1.png"
+            },
+            {
+                "companyName": 'Sivi.ai',
+                "experienceDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+                "role": "software engineer",
                 "companyImage": "experience-1.png"
             }
         ],
@@ -76,8 +89,14 @@ const sectionsData = [
     {
         "sectionName": "Education",
         "sectionType": "item",
-        "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionTo": "education",
+        "sectionValue": [
+            {
+                "educationTitle": 'Sivi.ai',
+                "educationDesc": "Turn your text into visual content instantly with Sivi. Using artificial intelligence, you can auto-generate editable banners, social posts, google display ads, and more from your story, webpage, article, etc.",
+            }
+        ],
+        "sectionComponent": Education
     },
     {
         "sectionName": "Awards",

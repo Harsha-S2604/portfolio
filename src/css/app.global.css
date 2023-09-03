@@ -73,3 +73,32 @@ body {
     margin-top: 8px;
     margin-left: -10px;
 }
+
+.section-brand-background {
+    background-color: var(--brand-color);
+}
+
+.section-heading {
+    padding: 35px;
+}
+
+.white-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    background-color: #fff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.box-image {
+    display: block;
+    overflow: hidden;
+}
+
+.box-image img {
+    transition: all 1s;
+}
+
+.box-content {
+    padding: 2rem 3% 1rem 4%;
+}
