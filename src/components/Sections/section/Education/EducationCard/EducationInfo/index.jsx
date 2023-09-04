@@ -4,8 +4,8 @@ const EducationInfo = ({ education }) => {
         <div className="box-content">
             <div className="row">
                 <div className="col-sm-12">
-                    <h2 className="education-title">{title}</h2>
-                    <h5 className="education-course">{course}</h5>
+                    <h4 className="education-title">{title}</h4>
+                    <h6 className="education-course">{course}</h6>
                     <div className="w-more">
                         <span className="experience-date">{year}</span>
                     </div>

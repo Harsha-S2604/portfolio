@@ -95,12 +95,12 @@ body {
     display: block;
     overflow: hidden;
     padding: 10px;
-    width: 100%;
-    max-height: 340px;
 }
 
 .box-image img {
     transition: all 1s;
+    max-height: 250px;
+    width: 100%;
     object-fit: cover;
 }
 
