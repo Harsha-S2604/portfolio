@@ -1,19 +1,19 @@
+import AwardsCard from "./AwardsCard"
 import SectionHeading from "../../../Common/SectionHeading"
-import ExperienceCard from "./ExperienceCard"
-import "./experience.css"
 
-const Experience = ({ data }) => {
-    const experiences = data.sectionValue
+const Awards = ({ data }) => {
+    const { sectionTo, sectionValue } = data
+    const awards = sectionValue
     return (
-        <section id="experience">
+        <section id={sectionTo}>
             <div className="container">
-                <SectionHeading heading={"Experience"} underLineClass={"underline-brand-color"}/>
+                <SectionHeading heading={"Awards"} underLineClass={"underline-brand-color"}/>
                 <div className="row justify-content-center">
                         {
-                            experiences?.map((experience, index) => {
+                            awards?.map((award, index) => {
                                 return (
                                     <div className="col-md-4">
-                                        <ExperienceCard experience={experience} key={'experience_' + index} />
+                                        <AwardsCard experience={award} key={'award_' + index} />
                                     </div>
                                 )
                             })
@@ -24,4 +24,4 @@ const Experience = ({ data }) => {
     )
 }
 
-export default Experience
+export default Awards

@@ -1,3 +1,4 @@
+import SectionHeading from "../../../Common/SectionHeading"
 import EducationCard from "./EducationCard"
 import "./education.css"
 
@@ -7,22 +8,13 @@ const Education = ({ data }) => {
     return (
         <section id={sectionTo} className="section-brand-background">
             <div className="container">
-                <div className="row">
-                    <div className="col-sm-12">
-                        <div className='text-center project-head'>
-                            <div className='underline-container'>
-                                <h1 className="title fw-bold">Education</h1>
-                                <div class="underline-white"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                <SectionHeading heading={"Education"} underLineClass={"underline-white"}/>
                 <div className="row justify-content-center">
                     {
                         educations?.map((education, index) => {
                             return (
                                 <div className="col-md-4">
-                                    <EducationCard education={education} key={'education_' + index} />
+                                    <EducationCard education={education} key={'educa    tion_' + index} />
                                 </div>
                             )
                         })

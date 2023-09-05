@@ -3,6 +3,7 @@ import About from "./About";
 import Contacts from "./Contacts";
 import Experience from "./Experience";
 import Education from "./Education";
+import Awards from "./Awards";
 
 export {
     Projects,
@@ -10,4 +11,5 @@ export {
     Contacts,
     Experience,
     Education,
+    Awards,
 }

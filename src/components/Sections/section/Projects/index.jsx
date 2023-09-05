@@ -1,17 +1,13 @@
 import './projects.css';
 import ProjectCard from './ProjectCard';
+import SectionHeading from '../../../Common/SectionHeading';
 
 const Projects = ({ data }) => {
     const projects = data.sectionValue
 
     return (
         <div id="projects" className='projects'>
-            <div className='text-center project-head'>
-                <div className='underline-container'>
-                    <h1 className="title fw-bold">Projects</h1>
-                    <div class="underline-white"></div>
-                </div>
-            </div>
+            <SectionHeading heading={"Projects"} underLineClass={"underline-white"}/>
             <div className="container mt-4 custom-container">
                 <div className='row'>
                     {

@@ -1,4 +1,4 @@
-import { About, Projects, Contacts, Experience, Education } from "../components/Sections/section"
+import { About, Projects, Contacts, Experience, Education, Awards } from "../components/Sections/section"
 
 const sectionsData = [
     {
@@ -109,8 +109,25 @@ const sectionsData = [
     {
         "sectionName": "Awards",
         "sectionType": "item",
-        "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionTo": "awards",
+        "sectionValue": [
+            {
+                "awardName": 'Dashing Debut',
+                "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+                "awardImage": "experience-1.png"
+            },
+            {
+                "awardName": 'Dashing Debut',
+                "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+                "awardImage": "experience-1.png"
+            },
+            {
+                "awardName": 'Dashing Debut',
+                "awardDesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna",
+                "awardImage": "experience-1.png"
+            }
+        ],
+        "sectionComponent": Awards
     },
     {
         "sectionName": "Hobbies",
