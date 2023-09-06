@@ -1,7 +1,13 @@
-const AwardsInfo = () => {
+const AwardsInfo = ({ award }) => {
+    const { awardName, awardDesc } = award
     return (
-        <div>
-            <h4>Dashing Debut</h4>
+        <div className="box-content">
+            <div className="row">
+                <div className="col-sm-12">
+                    <h4 className="content-title">{awardName}</h4>
+                    <p className="content-description">{awardDesc}</p>
+                </div>
+            </div>
         </div>
     )
 }

@@ -107,3 +107,11 @@ body {
 .box-content {
     padding: 2rem 3% 1rem 4%;
 }
+
+.content-title {
+    font-family: Roboto-Regular, 'sans-serif';
+}
+
+.content-description {
+    font-family: Roboto-Regular, 'sans-serif';
+}

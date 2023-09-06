@@ -1,7 +1,7 @@
-const Image = ({ imageSource, imageAlt }) => {
+const Image = ({ imageSource, imageAlt, className="" }) => {
     return (
         <div className="box-image">
-            <img className="img-fluid" src={imageSource} alt={imageAlt} />
+            <img className={`img-fluid ${className}`} src={imageSource} alt={imageAlt} />
         </div>
     )
 }

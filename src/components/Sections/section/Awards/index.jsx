@@ -13,7 +13,7 @@ const Awards = ({ data }) => {
                             awards?.map((award, index) => {
                                 return (
                                     <div className="col-md-4">
-                                        <AwardsCard experience={award} key={'award_' + index} />
+                                        <AwardsCard award={award} key={'award_' + index} />
                                     </div>
                                 )
                             })
