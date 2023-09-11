@@ -1,4 +1,4 @@
-import { About, Projects, Contacts, Experience, Education, Awards, Hobbies } from "../components/Sections/section"
+import { About, Projects, Contacts, Experience, Education, Awards, Hobbies, Volunteering } from "../components/Sections/section"
 
 const sectionsData = [
     {
@@ -152,8 +152,25 @@ const sectionsData = [
     {
         "sectionName": "Volunteering",
         "sectionType": "item",
-        "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionTo": "volunteering",
+        "sectionComponent": Volunteering,
+        "sectionValue": [
+            {
+                'title': 'Volunteering-1',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            },
+            {
+                'title': 'Volunteering-2',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            },
+            {
+                'title': 'Volunteering-3',
+                'description': 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna',
+                'image': 'volunteer1.jpeg',
+            }
+        ]
     },
     {
         "sectionName": "Contacts",

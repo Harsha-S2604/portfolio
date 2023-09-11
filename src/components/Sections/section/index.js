@@ -5,6 +5,7 @@ import Experience from "./Experience";
 import Education from "./Education";
 import Awards from "./Awards";
 import Hobbies from "./Hobbies";
+import Volunteering from "./Volunteering";
 
 export {
     Projects,
@@ -14,4 +15,5 @@ export {
     Education,
     Awards,
     Hobbies,
+    Volunteering,
 }
