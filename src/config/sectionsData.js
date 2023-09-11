@@ -1,4 +1,4 @@
-import { About, Projects, Contacts, Experience, Education, Awards } from "../components/Sections/section"
+import { About, Projects, Contacts, Experience, Education, Awards, Hobbies } from "../components/Sections/section"
 
 const sectionsData = [
     {
@@ -132,8 +132,22 @@ const sectionsData = [
     {
         "sectionName": "Hobbies",
         "sectionType": "item",
-        "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionTo": "hobbies",
+        "sectionComponent": Hobbies,
+        "sectionValue": [
+            {
+                'hobby': 'Baking',
+                'image': 'baking.png',
+            },
+            {
+                'hobby': 'Baking',
+                'image': 'baking.png',
+            },
+            {
+                'hobby': 'Baking',
+                'image': 'baking.png',
+            }
+        ]
     },
     {
         "sectionName": "Volunteering",

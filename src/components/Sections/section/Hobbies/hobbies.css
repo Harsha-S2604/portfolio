@@ -1,0 +1,11 @@
+.hobby-box {
+    margin-bottom: 3rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border-radius: 15px;
+}
+
+.hobby-content {
+    padding: 1rem 2% 1rem 3%;
+    font-family: Roboto-Regular;
+}

@@ -4,7 +4,7 @@ const SectionHeading = ({ heading, underLineClass}) => {
             <div className="col-sm-12">
                 <div className='text-center project-head'>
                     <div className='underline-container'>
-                        <h1 className="title fw-bold">{heading}</h1>
+                        <h2 className="title fw-bold">{heading}</h2>
                         <div className={underLineClass}></div>
                     </div>
                 </div>
