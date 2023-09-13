@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.3c687e50.css",
+    "main.js": "/portfolio/static/js/main.2c955649.js",
+    "static/media/Nunito.ttf": "/portfolio/static/media/Nunito.61b71ee93d55d9bddead.ttf",
+    "static/media/Raleway.ttf": "/portfolio/static/media/Raleway.575ec9e676c7a85494bb.ttf",
+    "static/media/Roboto-Regular.ttf": "/portfolio/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/Poppins-Regular.ttf": "/portfolio/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Comfortaa-Regular.ttf": "/portfolio/static/media/Comfortaa-Regular.6718cbec512d80eb9cbb.ttf",
+    "index.html": "/portfolio/index.html",
+    "main.3c687e50.css.map": "/portfolio/static/css/main.3c687e50.css.map",
+    "main.2c955649.js.map": "/portfolio/static/js/main.2c955649.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c687e50.css",
+    "static/js/main.2c955649.js"
+  ]
+}
