@@ -13,6 +13,7 @@ const Items = ({ data }) => {
                                         activeClass="active"
                                         className="custom-scroll-link nav-link navbar-menu"
                                         to={sectionItem.sectionTo}
+                                        offset={-60}
                                     >
                                         {sectionItem.sectionName}
                                     </Link>
