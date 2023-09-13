@@ -176,7 +176,23 @@ const sectionsData = [
         "sectionName": "Contacts",
         "sectionType": "item",
         "sectionTo": "contacts",
-        "sectionComponent": Contacts
+        "sectionComponent": Contacts,
+        "sectionValue": {
+            "socials": [
+                {
+                    "name": "github",
+                    "link": "https://github.com",
+                },
+                {
+                    "name": "twitter",
+                    "link": "https://twitter.com",
+                },
+                {
+                    "name": "linkedin",
+                    "link": "https://linkedin.com",
+                }
+            ]
+        }
     }
 ]
 
